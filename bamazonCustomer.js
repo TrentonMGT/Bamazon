@@ -9,7 +9,6 @@ var connection = mysql.createConnection({
 });
 
 connection.connect();
-var customer = new Customer();
 
 //customers questions
 var questions = [{
